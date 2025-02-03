@@ -1,0 +1,12 @@
+﻿  BMP_Create.cpp
+C:\Users\abroadbent\source\repos\BMP_Create\BMP_Create\BMP_Create.cpp(95,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\abroadbent\source\repos\BMP_Create\BMP_Create\BMP_Create.cpp(256,65): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+C:\Users\abroadbent\source\repos\BMP_Create\BMP_Create\BMP_Create.cpp(265,64): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+  Generating code
+  0 of 495 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  BMP_Create.vcxproj -> C:\Users\abroadbent\source\repos\BMP_Create\x64\Release\BMP_Create.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
