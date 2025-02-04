@@ -29,7 +29,7 @@ std::vector<Debris> debris;
 const int brickRows = 3;
 int currentbrickRows = brickRows;
 
-const int maxBalls = 3;
+const int maxBalls = 2;
 int remainingBalls = maxBalls;
 
 const int brickHitDebris = 10;
@@ -182,7 +182,7 @@ void displayYouSuckMessage(sf::RenderWindow& window, const sf::Font& font) {
     letter.setFillColor(sf::Color::Black);
 
     // Animate blocks falling
-    for (int frame = 0; frame < 120; ++frame) {
+    for (int frame = 0; frame < 100; ++frame) {
         window.clear();
         for (size_t i = 0; i < blocks.size(); ++i) {
             blocks[i].move(0, 1); // Move blocks down
